@@ -4,8 +4,8 @@ import numpy as np
 co = cohere.Client("COHERE_API_KEY")
 
 # get the embeddings
-phrases = ["Red", "Blood", "Sea"]
-(p1, p2, p3) = co.embed(phrases).embeddings
+words = ["Red", "Blood", "Sea"]
+(p1, p2, p3) = co.embed(words).embeddings
 
 # compare them
 def calculate_similarity(a, b):

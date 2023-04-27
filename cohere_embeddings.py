@@ -5,8 +5,8 @@ import matplotlib.pyplot as plt
 co = cohere.Client("COHERE_API_KEY")
 
 # get the embeddings
-phrases = ["Red", "Blood", "Sea"]
-(p1, p2, p3) = co.embed(phrases).embeddings
+words = ["Red", "Blood", "Sea"]
+(p1, p2, p3) = co.embed(words).embeddings
 
 x = [p1[0], p2[0], p3[0]] 
 y = [p1[1], p2[1], p3[1]] 
