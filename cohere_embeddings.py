@@ -1,8 +1,14 @@
 import cohere
 import numpy as np
 import matplotlib.pyplot as plt
+from dotenv import load_dotenv
+import os
 
-co = cohere.Client("COHERE_API_KEY")
+# Load environment variables from .env file
+load_dotenv()
+
+cohere_api_key = os.getenv("COHERE_API_KEY")
+co = cohere.Client(cohere_api_key)
 
 # get the embeddings
 words = ["Red", "Blood", "Sea"]

@@ -1,7 +1,12 @@
 import cohere
 import numpy as np
+from dotenv import load_dotenv
+import os
+# Load environment variables from .env file
+load_dotenv()
 
-co = cohere.Client("COHERE_API_KEY")
+cohere_api_key = os.getenv("COHERE_API_KEY")
+co = cohere.Client(cohere_api_key)
 
 # get the embeddings
 words = ["Red", "Blood", "Sea"]
@@ -11,6 +16,8 @@ words = ["Red", "Blood", "Sea"]
 def calculate_similarity(a, b):
   return np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b))
 
-#print(calculate_similarity(p1, p2)) # 0.8974134906653974 - very similar!
+# Similarity -1 to 1
 
-print(calculate_similarity(p1, p3)) # -0.5648101116086706 - not similar!
+#print(calculate_similarity(p1, p2)) 
+
+print(calculate_similarity(p1, p3)) 
