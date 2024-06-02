@@ -1,10 +1,10 @@
-# RAG con LLMs en Judini Inc.
+# RAG con LLMs
 
-Este repositorio alberga los materiales de formación para el uso de la Generación Aumentada por Recuperación (RAG) con Modelos de Lenguaje (LLMs) en Judini Inc.
+Este repositorio alberga los materiales de formación para el uso de la Generación Aumentada por Recuperación (RAG) con Modelos de Lenguaje (LLMs)
 
 ## Descripción
 
-El objetivo principal de estos materiales es proporcionar a los empleados de Judini Inc. una comprensión clara de cómo utilizar RAG y LLMs para mejorar nuestras capacidades de procesamiento de lenguaje natural.
+Una comprensión clara de cómo utilizar RAG y LLMs para mejorar nuestras capacidades de procesamiento de lenguaje natural.
 
 La Generación Aumentada por Recuperación es una técnica que permite a nuestros sistemas generar respuestas basadas en una gran cantidad de documentos almacenados. Utilizamos Modelos de LLMs para asegurarnos de que nuestras respuestas generadas sean coherentes y relevantes.
 
@@ -17,7 +17,7 @@ La Generación Aumentada por Recuperación es una técnica que permite a nuestro
 
 ## Contribuyendo
 
-Las contribuciones de los empleados de Judini Inc. son bienvenidas y muy apreciadas. Si desea contribuir a este repositorio, por favor, siga las siguientes pautas:
+Las contribuciones son bienvenidas y muy apreciadas. Si desea contribuir a este repositorio, por favor, siga las siguientes pautas:
 
 1. Haga un fork del repositorio.
 2. Cree una rama para su contribución.
