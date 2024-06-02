@@ -1,3 +1,4 @@
 cohere
 langchain
+langchain_community
 llama-index
