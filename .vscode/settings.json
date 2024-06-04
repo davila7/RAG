@@ -1,3 +1,6 @@
 {
-    "CodeGPT.apiKey": "CodeGPT Plus Beta"
+    "CodeGPT.apiKey": "CodeGPT Plus Beta",
+    "CodeGPT.Autocomplete.provider": "OpenAI - gpt-3.5-turbo-instruct",
+    "CodeGPT.Autocomplete.enabled": false,
+    "CodeGPT.Autocomplete.suggestionDelay": 2000
 }
