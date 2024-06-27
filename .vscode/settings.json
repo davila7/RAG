@@ -1,3 +1,6 @@
 {
-    "CodeGPT.apiKey": "CodeGPT Plus Beta"
+    "CodeGPT.apiKey": "Mistral",
+    "CodeGPT.Autocomplete.suggestionDelay": 700,
+    "CodeGPT.Autocomplete.maxTokens": 144,
+    "CodeGPT.Autocomplete.provider": "CodeGPT Plus - Plus"
 }
