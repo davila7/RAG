@@ -21,16 +21,38 @@ z = [p1[2], p2[2], p3[2]]
 # plot them
 fig = plt.figure()
 
-# 3d plot
-ax = fig.add_subplot(projection='3d')
+"""
+This code creates a 3D scatter plot using Matplotlib.
 
-# plot points
+The plot visualizes data points in a three-dimensional space,
+with each point represented by its X, Y, and Z coordinates.
+The axes are labeled accordingly for clarity.
+"""
+
+# Create a 3D subplot within the existing figure
+ax = fig.add_subplot(111, projection='3d')
+
+# Generate a scatter plot of the data points
 ax.scatter(x, y, z)
 
-# plot lines
-ax.set_xlabel('X Label')
-ax.set_ylabel('Y Label')
-ax.set_zlabel('Z Label')
+# Set labels for each axis
+ax.set_xlabel('X')  # Label for the X-axis
+ax.set_ylabel('Y')  # Label for the Y-axis
+ax.set_zlabel('Z')  # Label for the Z-axis
 
-# show the plot
+# 2d plot
+plt.figure()
+plt.scatter(x, y)
+plt.xlabel('X')
+plt.ylabel('Y')
+
 plt.show()
+
+# calculate the distances
+distances = []
+for i in range(len(words)):
+    for j in range(i+1, len(words)):
+        distance = np.linalg.norm(np.array(co.embed([words[i]]).embeddings[0]) - np.array(co.embed([words[j]]).embeddings[0]))
+        distances.append((words[i], words[j], distance))
+
+

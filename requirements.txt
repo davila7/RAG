@@ -2,3 +2,7 @@ cohere
 langchain
 langchain_community
 llama-index
+unstructured-client
+nest_asyncio
+llama-parse
+langchain_groq
