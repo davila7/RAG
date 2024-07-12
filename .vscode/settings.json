@@ -1,6 +1,7 @@
 {
-    "CodeGPT.apiKey": "CodeGPT Plus Beta",
-    "CodeGPT.Autocomplete.provider": "OpenAI - gpt-3.5-turbo-instruct",
-    "CodeGPT.Autocomplete.enabled": false,
-    "CodeGPT.Autocomplete.suggestionDelay": 2000
+    "CodeGPT.apiKey": "Groq",
+    "CodeGPT.Autocomplete.provider": "CodeGPT Plus - Plus",
+    "CodeGPT.Autocomplete.enabled": true,
+    "CodeGPT.Autocomplete.suggestionDelay": 1500,
+    "CodeGPT.Autocomplete.maxTokens": 192
 }
