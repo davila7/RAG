@@ -1,6 +1,6 @@
 {
-    "CodeGPT.apiKey": "Groq",
-    "CodeGPT.Autocomplete.provider": "CodeGPT Plus - Plus",
+    "CodeGPT.apiKey": "Mistral",
+    "CodeGPT.Autocomplete.provider": "Mistral - codestral-latest",
     "CodeGPT.Autocomplete.enabled": true,
     "CodeGPT.Autocomplete.suggestionDelay": 1500,
     "CodeGPT.Autocomplete.maxTokens": 192
